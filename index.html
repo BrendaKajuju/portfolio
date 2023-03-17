@@ -1,15 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>My Website</title>
+  <title>Brenda Kimathi | Software Engineer</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <script src="script.js"></script>
-    
+  <header>
+    <div class="container">
+      <h1>Brenda Kimathi</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h2>Software Engineer and Civil Engineering Graduate</h2>
+      <p>I create beautiful and functional websites and web applications.</p>
+      <a href="#work" class="btn">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="Brenda Kimathi">
+      <p>I am a civil engineering graduate turned software engineer with a passion for creating beautiful and functional websites and web applications.</p>
+      <p>My experience with civil engineering has given me a unique perspective on problem-solving and attention to detail, which I bring to my work as a software engineer.</p>
+    </div>
+  </section>
+
+  <section id="work">
+    <div class="container">
+      <h2>My Work</h2>
+      <ul class="work-grid">
+        <li>
+          <a href="#"><img src="project1.jpg" alt="Project 1"></a>
+          <h3>Project 1</h3>
+          <p>A brief description of Project 1.</p>
+        </li>
+        <li>
+          <a href="#"><img src="project2.jpg" alt="Project 2"></a>
+          <h3>Project 2</h3>
+          <p>A brief description of Project 2.</p>
+        </li>
+        <li>
+          <a href="#"><img src="project3.jpg" alt="Project 3"></a>
+          <h3>Project 3</h3>
+          <p>A brief description of Project 3.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Send">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Brenda Kimathi</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
+``
