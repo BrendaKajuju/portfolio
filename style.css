@@ -8,7 +8,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: whitesmoke;
+    background-image: url(https://media.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy-downsized-large.gif);
+    background-size: contain;    
   }
   
   .container {
@@ -139,8 +141,8 @@
   #about img {
     display: block;
     margin: 0 auto;
-    border-radius: 50%;
-    max-width: 300px;
+    border-radius: 100%;
+    max-width: 500px;
   }
   
   #about p {
