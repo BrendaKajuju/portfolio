@@ -24,7 +24,7 @@
   }
   
   img {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
   
@@ -128,8 +128,8 @@
   /* About section styles */
   
   #about {
-    background-color: #f4f4f4;
-    padding: 80px 0;
+    background-color: black;
+    
   }
   
   #about h2 {
@@ -138,15 +138,8 @@
     margin-bottom: 40px;
   }
   
-  #about img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 100%;
-    max-width: 500px;
-  }
-  
   #about p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 1.5;
     max-width: 800px;
     margin: 40px auto 0;
